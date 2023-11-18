@@ -35,6 +35,12 @@ const App = () => {
           <Route path="/olympia" component={Olympia}>
             <Olympia />
           </Route>
+          <Route path="/jessum" component={jessum}>
+            <Jessum/>
+          </Route>
+          <Route path="/mish" component={mish}>
+            <Mish />
+          </Route>
           <Redirect to="/" />
         </Switch>
       </main>
