@@ -13,6 +13,10 @@ import Services from './pages/Service/Services';
 import Navbar from './Components/Navbar/Navbar';
 
 import Olympia from './pages/Hostels/kikoni/olympia/Olympia';
+import Olympia from './pages/Hostels/kikoni/jessum/Jessum';
+import Olympia from './pages/Hostels/kikoni/mish/Mish';
+import Olympia from './pages/Hostels/kikoni/nalika/Nalika';
+import Olympia from './pages/Hostels/kikoni/nakiyingi/Nakiyingi';
 
 const App = () => {
   return (
@@ -40,6 +44,12 @@ const App = () => {
           </Route>
           <Route path="/mish" component={mish}>
             <Mish />
+          </Route>
+          <Route path="/nalika" component={nalika}>
+            <Nalika/>
+          </Route>
+          <Route path="/nakiyingi" component={nakiyingi}>
+            <Nakiyingi />
           </Route>
           <Redirect to="/" />
         </Switch>
