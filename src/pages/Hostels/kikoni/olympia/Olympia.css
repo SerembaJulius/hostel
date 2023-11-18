@@ -1,0 +1,48 @@
+.a{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    margin-top: 1%;
+    padding: 5px 0px 20px 30px;
+    background-color: green;
+    width: 85%;
+    
+}
+
+.p{
+    margin-top: 4%;
+    background-color: red;
+}
+
+.rooms{
+    background-color: blueviolet;
+    /* margin-top: %; */
+}
+
+.btn {
+    border: 5px solid;
+    border-image-slice: 1;
+    background: var(--gradient) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    border-image-source:  var(--gradient) !important; 
+    text-decoration: none;
+    transition: all .4s ease;
+  }
+  
+  .btn:hover, .btn:focus {
+        background: var(--gradient) !important;
+    -webkit-background-clip: none !important;
+    -webkit-text-fill-color: #fff !important;
+    border: 5px solid #fff !important; 
+    box-shadow: #222 1px 0 10px;
+    text-decoration: underline;
+  }
+
+.k{
+    background-color: aquamarine;
+}
+
+.testial-headingimon{
+    background-color: tomato;
+}

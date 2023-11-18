@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
 
-function App() {
+import Search from './pages/Hostels/Hostels';
+import Hostels from './pages/Hostels/Hostels';
+import Home from './pages/Home/Home';
+import Services from './pages/Service/Services';
+import Navbar from './Components/Navbar/Navbar';
+
+import Olympia from './pages/Hostels/kikoni/olympia/Olympia';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <main>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/" exact>
+            <Search />
+          </Route>
+          <Route path="/hostels" exact>
+            <Hostels />
+          </Route>
+          <Route path="/service" exact>
+            <Services />
+          </Route>
+          <Route path="/olympia" component={Olympia}>
+            <Olympia />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </main>
+    </Router>
   );
 }
 
