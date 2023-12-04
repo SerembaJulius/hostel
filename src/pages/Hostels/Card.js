@@ -7,7 +7,7 @@
 // const Card = ({ title, ratings, text, link1,  imgSrc }) => {
 //   return (
 //     <div className="card" style={{ width: '18rem' }}>
-//       <img src={imgSrc} className="card-img-top" alt="Hostel" />
+//       <img src={imgSrc} className="card-img-top" alt="Hostel" /> 
 //       <div className="card-body">
 //         <h5 className="card-title">{title}</h5>
 //         <div className="ratings">
