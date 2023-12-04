@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-        Web Solutions
+        Hostel Finder
       </NavLink>
       <button
         className="navbar-toggler"

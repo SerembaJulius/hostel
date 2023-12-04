@@ -1,0 +1,50 @@
+.hostel-rooms {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .hostel-rooms h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-sm-6, .col-md-4 {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .room-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .room-type {
+    margin-bottom: 10px;
+  }
+  
+  .room-type h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .room-price {
+    font-size: 16px;
+  }
+  

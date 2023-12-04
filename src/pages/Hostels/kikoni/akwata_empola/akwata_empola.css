@@ -1,0 +1,306 @@
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Section headings */
+  section h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Hostels section */
+  .a {
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .outer {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .details {
+    text-align: center;
+  }
+  
+  .fa-star {
+    color: #f0c000;
+  }
+  
+  .fa-star.checked {
+    color: orange;
+  }
+  .fa-star.empty {
+    color: grey;
+  }
+  .btn-directions {
+      display: inline-block;
+      padding: 10px 20px;
+      border: none;
+      background-color: #f0c000;
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    
+    .btn-directions:hover {
+      background-color: #f4d741;
+    }
+    
+  
+  /* Rooms section */
+  /* .p {
+      padding: 20px;
+      width: 100%;
+      background-color: antiquewhite;
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    
+  
+  .d {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .rooms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  .m{
+      font-weight: bold;
+      font-size: 19px;
+  }
+  
+  .room-item {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+   */
+  /* .room-details {
+    text-align: center;
+    margin-top: 10px;
+  
+  }
+  
+  
+  .room-details span {
+      font-weight: bold;
+      margin-right: 5px; 
+      padding:0px 20px;
+     
+    } */
+  
+    
+  
+  .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px; /* Add spacing between buttons */
+    }
+    
+    
+  
+  .btn:hover {
+    background-color: #f4d741;
+  }
+  
+  .btn i {
+    margin-left: 5px;
+  }
+  
+  .box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Amenities section */
+  .k {
+      padding: 20px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 5%;
+    }
+    
+    .x {
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .k h1 {
+      font-size: 24px;
+      margin-top: 10px;
+      text-align: center;
+    }
+    
+    .k p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+  
+  /* Testimonials section */
+  #testimonials {
+    padding: 20px;
+  }
+  
+  .testimonial-box {
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .testimonial-box p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    .testimonial-box p:first-child {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    @media (min-width: 768px) {
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .col-sm-6 {
+        width: 50%;
+      }
+    }
+  
+    .n {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .contact-form {
+      width: 500px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 15px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    textarea {
+      height: 100px;
+    }
+    
+    .btn-primary {
+      background-color: #f0c000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .btn-primary:hover {
+      background-color: #f4d741;
+    }
+
+    .hotel-rooms {
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+      
+      .hotel-rooms h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      .room {
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      
+      .room h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      
+      .room p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      .room .price {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      
+    
+    
